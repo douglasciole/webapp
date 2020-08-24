@@ -1,0 +1,66 @@
+.navStyle {
+    display: flex;
+    align-items: flex-end;
+    min-height: 77px;
+    background-color: #FFFFFF;
+    border-bottom: 12px #ec8c3a solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navStyle .container {
+    height: 42px;
+}
+
+.menuRow {
+    display: flex;
+    align-items: center;
+}
+
+.secondAlign {
+    display: flex;
+    align-items: baseline;
+}
+
+.navItems {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-bottom: -5px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.logo img {
+    width: 81px;
+    height: 21px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.topCompensation {
+    padding-top: 77px;
+}
+
+.loginDisplayContainer {
+    text-align: right;
+}
+
+.loginDisplayContainer span {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+    padding: 2px 15px;
+    margin-top: -20px;
+    float: right;
+    display: inline-block;
+}
+
+.loginDisplayContainer a {
+    margin-left: 15px;
+}

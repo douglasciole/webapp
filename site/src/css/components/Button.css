@@ -1,0 +1,28 @@
+.affittoButton {
+    font-size: 23px;
+    padding: 0px 50px;
+    height: 53px;
+    background-color: #06c;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'avenir';
+    font-weight: bold;
+    border: 0px;
+    transition: 0.3s;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.affittoButton:last-of-type{
+    margin-right: 0;
+ }
+
+.affittoButton.white {
+    background-color: #FFFFFF;
+    /* border: solid 5px #06c; */
+    color: #06c;
+}
+
+.affittoButton.white:hover {
+    background-color: #ec8c3a;
+}

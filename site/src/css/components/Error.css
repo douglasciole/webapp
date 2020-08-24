@@ -1,0 +1,14 @@
+.affitto-error-container {
+    text-align: left;
+    background-color: #CF2B3F;
+    padding: 15px 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: 0.4s;
+    opacity: 1;
+}
+
+.affitto-error-container.hide {
+    opacity: 0.5;
+    opacity: 0;
+}

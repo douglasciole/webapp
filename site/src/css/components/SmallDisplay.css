@@ -1,0 +1,10 @@
+.smallDisplay {
+    padding: 20px 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.smallDisplayText {
+    font-size: 16px;
+    font-weight: 100;
+}

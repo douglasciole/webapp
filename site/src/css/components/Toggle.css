@@ -1,0 +1,31 @@
+.affitto-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.affitto-toggle .affitto-toggle-line {
+    border-bottom: solid 4px #ec8c3a;
+    width: 30px;
+    position: absolute;
+}
+
+.affitto-toggle input[type="checkbox"] ~ .affitto-big-dot {
+    margin-left: -30px;
+    z-index: 1;
+    background-color: #D8D8D8;
+}
+
+.affitto-toggle input[type="checkbox"]:checked ~ .affitto-big-dot {
+    background-color: #06c;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+/* .affitto-big-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #06c;
+    display: inline-block;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+} */

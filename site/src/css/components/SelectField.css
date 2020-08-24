@@ -1,0 +1,59 @@
+.textDIsplay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.textDIsplay select {
+    height: 40px;
+    border: none;
+    border-bottom: 5px #ec8c3a solid;
+    width: 100%;
+    min-width: 100px;
+    max-width: 800px;
+    background: transparent;
+
+    /* transition: 0.3s; */
+}
+
+.bg-pink .textDIsplay select {
+    border-bottom: 5px #06c solid;
+}
+
+.textDIsplay select {
+    font-size: 25px;
+    font-family: 'avenir';
+    font-weight: 100;
+    padding: 0px 10px;
+}
+
+.textDIsplay select:focus { 
+    outline: none !important;
+    border-bottom: 5px #06c solid;
+}
+
+.bg-pink .textDIsplay select:focus, .bg-green .textDIsplay select:focus { 
+    border-bottom: 5px #FFFFFF solid;
+}
+
+.textDIsplay select:hover { 
+    outline: none !important;
+    border-bottom: 5px #06c solid;
+}
+
+.bg-pink .textDIsplay select:hover { 
+    border-bottom: 5px #06c solid;
+}
+
+.bg-green .textDIsplay select:hover { 
+    border-bottom: 5px #ec8c3a solid;
+}
+
+.error { 
+    outline: none !important;
+    border-bottom: 5px rgba(255, 64, 64) solid;
+}

@@ -1,0 +1,44 @@
+.linkSection {
+    color: #FFFFFF;
+    padding: 70px 0px;
+    text-align: left;
+}
+
+.linkSection .label {
+    font-size: 30px;
+}
+
+.linkSection.white, .linkSection.white a {
+    color: #06c;
+}
+
+.linkSection.green {
+    background-color: #06c;
+}
+
+.linkSection.pink {
+    background-color: #ec8c3a;
+}
+
+.linkSection a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+div.underlined {
+    margin-top: 30px;
+    border-bottom: solid 4px #FFFFFF;
+    padding-bottom: 10px;
+}
+
+div.underlined img {
+    float: right;
+}
+
+div.underlined input[type="text"] {
+    width: 90%;
+    background: transparent;
+    border: 0;
+    color: #FFFFFF;
+}

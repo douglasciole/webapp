@@ -1,0 +1,22 @@
+.roundedBox {
+    border: solid 5px #ec8c3a;
+    color: #06c;
+    border-radius: 30px;
+    max-width: 400px;
+    padding: 50px 50px;
+    margin-bottom: 40px;
+}
+
+.roundedBox .title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.roundedBox .firstLine {
+    margin-bottom: 25px;
+}
+
+.downloadButton {
+    max-width: 400px;
+    text-align: center;
+}

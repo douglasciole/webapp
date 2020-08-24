@@ -1,0 +1,35 @@
+.confirmationLabel {
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* align-content: space-between; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #06c;
+}
+
+.confirmationLabel.no-padding {
+    padding-bottom: 0px;
+}
+
+.editButton {
+    color: #06c;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.editButton:hover {
+    color: #06c;
+    text-decoration: none;
+}
+
+.bg-pink .confirmationLabel, 
+.bg-green .confirmationLabel, 
+.bg-pink .editButton, 
+.bg-green .editButton, 
+.bg-pink .editButton:hover, 
+.bg-green .editButton:hover {
+    color: #FFFFFF;
+}

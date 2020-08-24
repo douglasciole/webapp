@@ -1,0 +1,17 @@
+.bigDisplay {
+    padding: 70px 0px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.bigDisplayTitle {
+    font-size: 36px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.bigDisplayText {
+    font-size: 24px;
+    font-weight: 100;
+}
